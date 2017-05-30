@@ -161,6 +161,7 @@
                     $("#submit").removeAttr('disabled', 'disabled');
                 },
                 error: function(err) {
+                    console.error(err);
                     var y = document.getElementById("fail-snackbar");
                     y.className = "show";
                     setTimeout(function() {
