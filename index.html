@@ -784,7 +784,7 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-xs-12 text-center">
-                                <button type="submit" id="submit" name="submit-data" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
+                                <button type="submit" onclick="" id="submit" name="submit-data" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
                                     <!-- Button value here -->
                                     <i class="ion-ios-paperplane"></i>Envoyer</button>
                             </div>
@@ -843,7 +843,17 @@
 <script src="javascript/retina.min.js"></script>
 <script src="javascript/jquery.filterizr.min.js"></script>
 <script src="javascript/custom-script.js"></script>
-
+<script src="https://smtpjs.com/smtp.js"></script>
+<script>
+    function sendMail() {
+        Email.send(document.getElementById("email"),
+            "guillaumetran97@gmail.com",
+            document.getElementById("name"),
+            document.getElementById("subject"),
+            document.getElementById("textarea"),
+            {token: "5540f012-dd70-4150-813a-8bbfc3efd57a"});
+    }
+</script>
 
 </body>
 </html>
