@@ -779,7 +779,6 @@ nav ul a span.badge{position:static;margin-left:4px;line-height:0;}
 .truncate{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .no-padding{padding:0 !important;}
 .material-icons{text-rendering:optimizeLegibility;-webkit-font-feature-settings:'liga';-moz-font-feature-settings:'liga';font-feature-settings:'liga';}
-@font-face{font-family:"Material-Design-Icons";src:url("http://demo.ravelweb.com/material-cv/fonts/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("http://demo.ravelweb.com/material-cv/fonts/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("http://demo.ravelweb.com/material-cv/fonts/material-design-icons/Material-Design-Icons.woff") format("woff"), url("http://demo.ravelweb.com/material-cv/fonts/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("http://demo.ravelweb.com/material-cv/fonts/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");font-weight:normal;font-style:normal;}
 [class^="mdi-"], [class*="mdi-"]{speak:none;display:inline-block;font-family:"Material-Design-Icons";font-style:normal;font-weight:normal;font-variant:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transform:translate(0, 0);transform:translate(0, 0);}
 [class^="mdi-"]:before, [class*="mdi-"]:before{display:inline-block;speak:none;text-decoration:inherit;}
 [class^="mdi-"].pull-left, [class*="mdi-"].pull-left{margin-right:.3em;}

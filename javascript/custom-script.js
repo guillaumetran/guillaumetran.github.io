@@ -141,36 +141,5 @@
                 scrollTop: 0,
             }, scroll_top_duration);
         });
-        /*$('form#contact-form').on('submit', function(e) {
-         e.preventDefault();
-         $("#submit").attr('disabled', 'disabled');
-         $.ajax({
-         url: "http://formspree.io/guillaumetran97@gmail.com",
-         method: "POST",
-         data: $(this).serialize(),
-         dataType: "json",
-         success: function(data) {
-         var x = document.getElementById("snackbar");
-         x.className = "show";
-         setTimeout(function() {
-         x.className = x.className.replace("show", "");
-         }, 3000);
-         $("form#contact-form")[0].reset();
-         Materialize.updateTextFields();
-         $("#submit").removeAttr('disabled', 'disabled');
-         },
-         error: function(err) {
-         console.error(err);
-         var y = document.getElementById("fail-snackbar");
-         y.className = "show";
-         setTimeout(function() {
-         y.className = y.className.replace("show", "");
-         }, 3000);
-         $("form#contact-form")[0].reset();
-         Materialize.updateTextFields();
-         $("#submit").removeAttr('disabled', 'disabled');
-         }
-         });
-         });*/
     });
 })(jQuery);
