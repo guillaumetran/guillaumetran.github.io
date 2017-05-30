@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="referrer" content="origin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="author" content="Guillaume Tran">
     <meta name="description" content="">
@@ -766,7 +766,7 @@
             <div class="col col-md-7 col-sm-6 col-xs-12">
                 <div  class="contact card">
 
-                    <form id="contact-form" name="contact-form" role="form">
+                    <form id="contact-form" name="contact-form" role="form" method='POST'>
                         <div class="input-field">
                             <input  id="name" name="name" type="text" class="validate" required>
                             <label for="name">Nom</label>
@@ -785,12 +785,9 @@
                         </div>
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-xs-12 text-center">
-                                <button type="submit" id="submit" name="submit-data" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
-                                    <!-- Button value here -->
+                                <button type="submit" id="submit" class="btn waves-effect waves-light btn-primary custom-btn">
                                     <i class="ion-ios-paperplane"></i>Envoyer</button>
                             </div>
-
-                            <!-- Message Sent and Error info -->
                             <div id="snackbar">Message envoyé</div>
                             <div id="fail-snackbar">Message non envoyé, Veuillez réesayer</div>
                         </div>
@@ -798,8 +795,12 @@
 
                 </div>
             </div>
+            <form action="https://formspree.io/guillaumetran97@gmail.com" method="POST">
+                <input type="text" name="name">
+                <input type="email" name="_replyto">
+                <input type="submit" value="Send">
+            </form>
             <!-- ./Contact Form -->
-
         </div>
 
         <!-- Location MAP -->
